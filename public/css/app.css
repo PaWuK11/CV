@@ -1,0 +1,798 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    --s: 84px;
+    --c1: #f2f2f2;
+    --c2: #cdcbcc;
+    --c3: #999999;
+
+    --_g: 0 120deg, #0000 0;
+    background: conic-gradient(
+        from 0deg at calc(500% / 6) calc(100% / 3),
+        var(--c3) var(--_g)
+    ),
+    conic-gradient(
+        from -120deg at calc(100% / 6) calc(100% / 3),
+        var(--c2) var(--_g)
+    ),
+    conic-gradient(
+        from 120deg at calc(100% / 3) calc(500% / 6),
+        var(--c1) var(--_g)
+    ),
+    conic-gradient(
+        from 120deg at calc(200% / 3) calc(500% / 6),
+        var(--c1) var(--_g)
+    ),
+    conic-gradient(
+        from -180deg at calc(100% / 3) 50%,
+        var(--c2) 60deg,
+        var(--c1) var(--_g)
+    ),
+    conic-gradient(
+        from 60deg at calc(200% / 3) 50%,
+        var(--c1) 60deg,
+        var(--c3) var(--_g)
+    ),
+    conic-gradient(
+        from -60deg at 50% calc(100% / 3),
+        var(--c1) 120deg,
+        var(--c2) 0 240deg,
+        var(--c3) 0
+    );
+    background-size: calc(var(--s) * 1.732) var(--s);
+}
+* {
+    box-sizing: border-box;
+}
+
+.v7_22 {
+    width: 100%;
+    height: 742px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.v4_11 {
+    width: 100%;
+    height: 742px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    overflow: hidden;
+}
+.v4_8 {
+    width: 100%;
+    height: 742px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    box-shadow: 32px 21px 16px rgba(0, 0, 0, 0.15000000596046448);
+    overflow: hidden;
+}
+.v4_5 {
+    width: 50%; /* Задайте відсоток ширини, який вам потрібен */
+    height: 742px;
+    background: rgba(4,180,224,255);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    overflow: hidden;
+}
+.v4_6 {
+    width: 735px;
+    height: 742px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 314px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+.v4_9 {
+    width: 75px;
+    height: 401px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 1px;
+    left: 1108px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+.v4_10 {
+    width: 73px;
+    height: 161px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 581px;
+    left: 1122px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+.v7_21 {
+    width: 100%;
+    height: 709px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 27px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.v7_5 {
+    width: 304px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 240px;
+    left: 15px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: bold;
+    opacity: 1;
+    text-align: center;
+}
+.v7_2 {
+    width: 567px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 260px;
+    left: 410px;
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: bold;
+    opacity: 1;
+    text-align: center;
+}
+.v7_3 {
+    width: 500px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 335px;
+    left: 441px;
+    font-family: Inter;
+    font-size: 32px;
+    opacity: 1;
+    text-align: center;
+    opacity: 0.5;
+}
+.v7_6 {
+    width: 334px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 275px;
+    left: 0px;
+    font-family: Inter;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+}
+.v7_4 {
+    width: 201px;
+    height: 201px;
+    background: rgba(217,217,217,1);
+    opacity: 1;
+    position: absolute;
+    top: 13px;
+    left: 66px;
+    border-radius: 50%;
+}
+.v7_4 {
+    width: 201px;
+    height: 201px;
+    background: rgba(217,217,217,1);
+    opacity: 1;
+    position: absolute;
+    top: 13px;
+    left: 66px;
+    border-radius: 50%;
+}
+.v7_20 {
+    width: 202px;
+    height: 41px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 364px;
+    left: 65px;
+    overflow: hidden;
+}
+.v7_7 {
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+.v7_8 {
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 81px;
+    overflow: hidden;
+}
+.v7_9 {
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+    position: absolute;
+    top: 1px;
+    left: 162px;
+    overflow: hidden;
+}
+.v7_10 {
+    width: 234px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(217,217,217,1);
+    opacity: 1;
+    position: absolute;
+    top: 454px;
+    left: 50px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    overflow: hidden;
+}
+.v7_11 {
+    width: 239px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 694px;
+    left: 15px;
+    font-family: Inter;
+    font-size: 12px;
+    opacity: 1;
+    text-align: center;
+}
+.v7_12 {
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 1130px;
+    overflow: hidden;
+}
+.v7_14 {
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+    position: absolute;
+    top: 122px;
+    left: 1130px;
+    overflow: hidden;
+}
+.v7_13 {
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+    position: absolute;
+    top: 61px;
+    left: 1130px;
+    overflow: hidden;
+}
+.v7_15 {
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+    position: absolute;
+    top: 183px;
+    left: 1130px;
+    overflow: hidden;
+}
+.v7_17 {
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+    position: absolute;
+    top: 307px;
+    left: 1130px;
+    overflow: hidden;
+}
+.v7_16 {
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+    position: absolute;
+    top: 244px;
+    left: 1130px;
+    overflow: hidden;
+}
+.v7_19 {
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+    position: absolute;
+    top: 646px;
+    left: 1144px;
+    overflow: hidden;
+}
+.v7_18 {
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+    position: absolute;
+    top: 583px;
+    left: 1144px;
+    overflow: hidden;
+}
+
+.sessionInfo {
+    position: absolute;
+    background-color: rgba(4,180,224,255);
+    padding: 10px;
+    color: #fff;
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+a:hover + .sessionInfo {
+    opacity: 1;
+}
+
+.routs {
+    position: relative;
+}
+
+#home {
+    left: 1040px;
+    top: -64px;
+}
+
+#about_me {
+    left: 1010px;
+    top: -4px;
+}
+#study {
+    left: 1040px;
+    top: 56px;
+}
+#experience {
+    left: 1000px;
+    top: 116px;
+}
+
+#portfolio {
+    left: 1015px;
+    top: 176px;
+}
+
+#contact {
+    left: 1025px;
+    top: 236px;
+}
+
+.v7_12 {
+    top: -64px;
+}
+
+.v7_13 {
+    top: -4px;
+}
+
+.v7_14 {
+    top: 56px;
+}
+
+.v7_15 {
+    top: 116px;
+}
+
+.v7_16 {
+    top: 176px;
+}
+
+.v7_17 {
+    top: 236px;
+}
+
+.icons {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.routs:hover .v7_12 .icons {
+    content: url('../images/free-icon-font-home.png');
+}
+
+.routs:hover .v7_13 .icons {
+    content: url('../images/free-icon-font-user.png');
+}
+
+.routs:hover .v7_14 .icons {
+    content: url('../images/free-icon-font-graduation-cap.png');
+}
+
+.routs:hover .v7_15 .icons {
+    content: url('../images/free-icon-font-building.png');
+}
+
+.routs:hover .v7_16 .icons {
+    content: url('../images/free-icon-font-briefcase.png');
+}
+
+.routs:hover .v7_17 .icons {
+    content: url('../images/free-icon-font-envelope.png');
+}
+
+.v7_18:hover .icons {
+    content: url('../images/free-icon-font-angle-left.png');
+}
+
+.v7_19:hover .icons {
+    content: url('../images/free-icon-font-angle-right.png');
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    background: none;
+    color: #0f1923;
+    cursor: pointer;
+    position: relative;
+    padding: 8px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    transition: all .15s ease;
+}
+
+.button::before,
+.button::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: calc(50% - 5px);
+    border: 1px solid #7D8082;
+    transition: all .15s ease;
+}
+
+.button::before {
+    top: 0;
+    border-bottom-width: 0;
+}
+
+.button::after {
+    bottom: 0;
+    border-top-width: 0;
+}
+
+.button:active,
+.button:focus {
+    outline: none;
+}
+
+.button:active::before,
+.button:active::after {
+    right: 3px;
+    left: 3px;
+}
+
+.button:active::before {
+    top: 3px;
+}
+
+.button:active::after {
+    bottom: 3px;
+}
+
+.button_lg {
+    position: relative;
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #0f1923;
+    overflow: hidden;
+    box-shadow: inset 0px 0px 0px 1px transparent;
+}
+
+.button_lg::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 2px;
+    background-color: #0f1923;
+}
+
+.button_lg::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 4px;
+    height: 4px;
+    background-color: #0f1923;
+    transition: all .2s ease;
+}
+
+.button_sl {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: -1px;
+    left: -8px;
+    width: 0;
+    background-color: #ff4655;
+    transform: skew(-15deg);
+    transition: all .2s ease;
+}
+
+.button_text {
+    position: relative;
+}
+
+.button:hover {
+    color: #0f1923;
+}
+
+.button:hover .button_sl {
+    width: calc(100% + 15px);
+}
+
+.button:hover .button_lg::after {
+    background-color: #fff;
+}
+
+.v7_12, .v7_13, .v7_14, .v7_15, .v7_16, .v7_17 {
+    position: absolute;
+    left: 1130px;
+    height: 40px;
+    width: 40px;
+    opacity: 1;
+    overflow: hidden;
+}
+
+.amazing-venues {
+    margin: 1px 200px;
+}
+
+.left-content {
+    margin-left: 150px;
+    margin-right: 130px;
+}
+
+.right-content {
+    margin-left: -90px;
+    margin-right: 10px;
+}
+
+.fn {
+    color: #04B4E0FF;
+}
+
+.box {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+.icon {
+    font-size: 40px;
+    color: #00BFFF;
+}
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.description {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.amazing-venues {
+    margin: 1px 200px;
+}
+
+.left-content {
+    margin-left: 150px;
+    margin-right: 130px;
+}
+
+.right-content {
+    margin-left: -90px;
+    margin-right: 10px;
+}
+
+.fn {
+    color: #04B4E0FF;
+}
+
+.box {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.icon {
+    font-size: 40px;
+    color: #00BFFF;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.description {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    overflow: visible;
+}
+
+.col-lg-9, .col-lg-3 {
+    overflow: visible;
+}
+
+.list-group {
+    margin-left: 40vh;
+    margin-right: 32vh;
+}
+
+.left-center-content {
+    margin-left: 250px
+}
+
+.list-group-item-action:hover {
+    color: #00BFFF;
+}
+
+.card-1 {
+    margin-top: -50px;
+}
+
+.card-2 {
+    margin-top: 20px;
+}
+.card-3 {
+    margin-top: -50px;
+    margin-left: -100px;
+    margin-right: 50px;
+}
+.card-4 {
+    margin-top: 20px;
+    margin-left: -100px;
+}
+
+.hoverbox:hover .hoverbox-content, .hoverbox:focus .hoverbox-content {
+    opacity: 1;
+}
+
+.hoverbox:hover .as-hoverbox-content, .hoverbox:focus .as-hoverbox-content {
+    z-index: 1;
+}
+
+.hoverbox-content-gradient {
+    background: -o-linear-gradient(transparent, #000);
+    background: linear-gradient(transparent, #000);
+}
+
+.hoverbox .hoverbox-content {
+    position: absolute;
+    top: 19px;
+    left: 364px;
+    width: 24%;
+    height: 38%;
+    opacity: 0;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+    margin: 0 !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.img-fluid, .card-1, .card-2, .card-3, .card-4 {
+    width: 35vh;
+    height: 30vh;
+}
+
+.hoverbox-2 .hoverbox-content {
+    position: absolute;
+    top: 308px;
+    left: 364px;
+    width: 24%;
+    height: 38%;
+}
+
+.hoverbox-3 .hoverbox-content {
+    position: absolute;
+    top: 19px;
+    left: 696px;
+    width: 24%;
+    height: 38%;
+}
+
+.hoverbox-4 .hoverbox-content {
+    position: absolute;
+    top: 308px;
+    left: 696px;
+    width: 24%;
+    height: 38%;
+}
+
